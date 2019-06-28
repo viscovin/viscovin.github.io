@@ -71,7 +71,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $black;
+    color: $blue;
   }
 }
 
@@ -124,7 +124,7 @@ img {
   background: $lightGray;
 }
 ::selection {
-  color: $blue;
+  color: $black;
   background: $lightGray;
 }
 
