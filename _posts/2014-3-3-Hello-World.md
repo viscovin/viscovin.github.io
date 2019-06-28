@@ -1,10 +1,62 @@
 ---
 layout: post
-title: You're up and running!
+title: Week 1
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Week 1: Basics of Malware
+History
+1986  	First malware created by two Pakistani brothers who were tired of their software being pirated. 
+1988	One of the first computer worms distributed via the internet written by Robert Morris.
+2010 	Stuxnet is a malicious worm that targets SCADA systems and damaged Iran’s nuclear program.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Malware exists for various reasons, like financial gain, spying, defacement or destruction, political advantage, and is employed mostly by governments and organized crime although the lone anonymous user has gained popularity. 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Definitions and examples 
+	Malware: MALicious softWARE
+	Viruses: parasitic, polymorphic, worm
+	Trojans: backdoor downloader, password stealer, key logger 
+	PUP: Potentially Unwanted Program also PUA, PUS like Adware, spyware, toolbars
+	White: clean 
+	Black: dirty, infected
+	Gray: undetermined if white or black
+	Sample: piece of malware, an example
+	Goat: sacrificial file or system used for virus testing
+	Replication: copying or reproducing something 
+	Hash: function used to map data of arbitrary size onto data of fixed size
+
+Naming Convention 
+Type 		Platform/	Family 		.Variant	!Information
+Trojan 		win32/		Reveton	.T		!lnk
+
+Handling Malware
+	Transport in an inactive state. Pws archive, rename extension using cmd
+	Lockdown development environment. Antimalware, firewall, policies
+	Be ready to disconnect from the network at the drop of a hat.
+
+Replication 
+Key factors for a successful replication are an isolated environment, a hardened VM, and bait.
+To measure replication we need to observe what events or changes occurred during replication, which of these were caused by the sample vs background noise and what was the impact of these changes.
+
+Basic Tools to Detect Malware
+Windows tools that could be sued to detect malware are Task manager, MS config, Search, IPconfig /display DNS. There are also commercial tools such as Process Explorer, Proc Con, AntiSpy Flypaper, Inst Drv some of which we will be using on our first lab.
+
+Advanced Persistent Threats as defined by US Airforce
+	Advanced: The attacker is fluent with cyber intrusion methods and administrative techniques and is capable of crafting custom exploits and related tools.
+	Persistent: Attacker has an objective or mission and works to achieve their goals without detection.
+	Threat: The attacker is organized, receives instructions, is sufficiently funded to perform their operations and is motivated. 
+
+APT Kill Chain 
+1.	Reconnaissance
+2.	Weaponization
+3.	Delivery
+4.	Exploitation
+5.	Installation
+6.	Command and Control
+7.	Actions on Objectives
+
+Dynamic Analysis
+is executed while a program is in operation. A dynamic test will monitor system memory, functional behavior, response time, and overall performance of the system.
+
+Static Analysis
+is performed in a non-runtime environment. Typically, a static analysis tool will inspect program code for all possible run-time behaviors and seek out coding flaws, back doors, and potentially malicious code.
+
