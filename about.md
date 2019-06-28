@@ -10,7 +10,6 @@ ID# 932789170
 
 ### More Information
 
-OSU 
 CS-373 Defense Against the Dark Arts   
 Summer 2019
 
