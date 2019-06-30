@@ -18,10 +18,10 @@ avatar: https://raw.githubusercontent.com/viscovin/viscovin.github.io/master/ima
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: #viscovin@oregonstate.edu
+  email: 
   facebook:
   flickr:
-  github: #viscovin.github.io
+  github: 
   instagram:
   linkedin:
   pinterest:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:https://viscovin.github.io/
+url: https://viscovin.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
