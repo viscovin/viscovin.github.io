@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Team SBR (Security Based Reasearch)
 permalink: /about/
 ---
+CS-467 Capstone Project   Winter 2020  
+   
+**- Ricky Salinas**  
+**- Ashwin Sawant**  
+**- Nadia Viscovich**  
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Our team will create a simple web app with all the needed infrastructure to perform a series of different web attacks.
+From each web attack we will learn the vulnerabilities being exploited and we will attempt to harden the web app accordingly.
+The final outcome will be a how to guide to be posted on GitHub. This guide will have step by step instructions on how to 
+achieve each specific web attack.
