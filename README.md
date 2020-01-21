@@ -1,5 +1,5 @@
 
-#CS-467 Capstone Project   Winter 2020  
+CS-467 Capstone Project   Winter 2020  
    
 **- Ricky Salinas**  
 **- Ashwin Sawant**  
